@@ -1,0 +1,9 @@
+// Select the same Team for both targets, or set DEVELOPMENT_TEAM below.
+DEVELOPMENT_TEAM =
+// macOS-specific, team-prefixed group; no portal registration needed.
+ACTIVITY_APP_GROUP = $(DEVELOPMENT_TEAM).com.example.ActivityWatchWidget.shared
+APP_BUNDLE_IDENTIFIER = com.example.ActivityWatchWidget
+MACOSX_DEPLOYMENT_TARGET = 14.0
+SWIFT_VERSION = 5.0
+CODE_SIGN_STYLE = Automatic
+ENABLE_HARDENED_RUNTIME = YES

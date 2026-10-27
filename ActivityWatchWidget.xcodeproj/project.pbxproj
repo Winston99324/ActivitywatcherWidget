@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F0B3F2C1BA6CE2EA3D76E1 /* Widget/ActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C739034363CA59EDD834574C /* Widget/ActivityWidget.swift */; };
+		10AE3196556C46C8DA6D259E /* Shared/BrowserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D393B2FB3B8ACD855DC998 /* Shared/BrowserActivity.swift */; };
+		173A8A2898BC7C97E414178B /* Shared/BrowserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D393B2FB3B8ACD855DC998 /* Shared/BrowserActivity.swift */; };
+		3B4D062E9DF6D20B7437AF82 /* App/DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D15C7CA423DE64384AAE98E /* App/DashboardView.swift */; };
+		3E5608C6E91562E5589918C8 /* App/ActivityWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E639B600902A806971858BE1 /* App/ActivityWatchApp.swift */; };
+		4D38674F219455B12DC5B560 /* Shared/SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F972A8C01938C55A08B92B /* Shared/SharedStore.swift */; };
+		590408B7FADAC72C8E0613DA /* Shared/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487029ABA0C58EE21B5F45AD /* Shared/Models.swift */; };
+		5C26D0F98F939775EE17540F /* Shared/ActivityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FB9FD6FEC983B186EEB3E /* Shared/ActivityClient.swift */; };
+		AECD298FFBF9E825C4AB7EC3 /* Shared/SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F972A8C01938C55A08B92B /* Shared/SharedStore.swift */; };
+		B5F235D5B8CC63C82183E49E /* ActivityWatchWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F231F6FE549E641636571AA6 /* ActivityWatchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C0281A7F305DB8C09556588A /* App/ChromeDashboardSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B7E50715B5ABAC75E4CFA /* App/ChromeDashboardSection.swift */; };
+		C26F882B2F43581548FF15E8 /* Shared/ActivityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FB9FD6FEC983B186EEB3E /* Shared/ActivityClient.swift */; };
+		D8810FE998614CB71141347B /* Widget/ChromeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60172B698C29901C55D56 /* Widget/ChromeWidget.swift */; };
+		EB3E7A6F330162EDF217A79F /* Shared/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487029ABA0C58EE21B5F45AD /* Shared/Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D799BAE6088A90139B415FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568889CE84FC139A640015BA;
+			remoteInfo = ActivityWatchWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFFF27C96089B93150F3553B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B5F235D5B8CC63C82183E49E /* ActivityWatchWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A97E9E7F9AF2B83CA371A7B /* Config/Widget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Config/Widget-Info.plist"; sourceTree = "<group>"; };
+		24DCDCCF177A16A1A9120BDD /* Config/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/Project.xcconfig; sourceTree = "<group>"; };
+		3AA60172B698C29901C55D56 /* Widget/ChromeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget/ChromeWidget.swift; sourceTree = "<group>"; };
+		402B7E50715B5ABAC75E4CFA /* App/ChromeDashboardSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/ChromeDashboardSection.swift; sourceTree = "<group>"; };
+		487029ABA0C58EE21B5F45AD /* Shared/Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Models.swift; sourceTree = "<group>"; };
+		6D15C7CA423DE64384AAE98E /* App/DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/DashboardView.swift; sourceTree = "<group>"; };
+		76127F5F7EC36DCF897C0870 /* Config/App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Config/App-Info.plist"; sourceTree = "<group>"; };
+		78D393B2FB3B8ACD855DC998 /* Shared/BrowserActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/BrowserActivity.swift; sourceTree = "<group>"; };
+		8BCD5BC4CDFDF0918087C782 /* ActivityWatch Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "ActivityWatch Widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7FB9FD6FEC983B186EEB3E /* Shared/ActivityClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/ActivityClient.swift; sourceTree = "<group>"; };
+		A6F972A8C01938C55A08B92B /* Shared/SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/SharedStore.swift; sourceTree = "<group>"; };
+		C739034363CA59EDD834574C /* Widget/ActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget/ActivityWidget.swift; sourceTree = "<group>"; };
+		E547F4B9C9ED79FE7A55A583 /* Config/App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config/App.entitlements; sourceTree = "<group>"; };
+		E639B600902A806971858BE1 /* App/ActivityWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/ActivityWatchApp.swift; sourceTree = "<group>"; };
+		F231F6FE549E641636571AA6 /* ActivityWatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; path = ActivityWatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0A928482901FDE699E39FA /* Config/Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config/Widget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED70CF945AD56722802E337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574FEB85B77A2AAD2E5A4E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC76E9F0C0006E8F919E0C51 = {
+			isa = PBXGroup;
+			children = (
+				3AA60172B698C29901C55D56 /* Widget/ChromeWidget.swift */,
+				402B7E50715B5ABAC75E4CFA /* App/ChromeDashboardSection.swift */,
+				78D393B2FB3B8ACD855DC998 /* Shared/BrowserActivity.swift */,
+				E639B600902A806971858BE1 /* App/ActivityWatchApp.swift */,
+				6D15C7CA423DE64384AAE98E /* App/DashboardView.swift */,
+				C739034363CA59EDD834574C /* Widget/ActivityWidget.swift */,
+				487029ABA0C58EE21B5F45AD /* Shared/Models.swift */,
+				9F7FB9FD6FEC983B186EEB3E /* Shared/ActivityClient.swift */,
+				A6F972A8C01938C55A08B92B /* Shared/SharedStore.swift */,
+				24DCDCCF177A16A1A9120BDD /* Config/Project.xcconfig */,
+				76127F5F7EC36DCF897C0870 /* Config/App-Info.plist */,
+				1A97E9E7F9AF2B83CA371A7B /* Config/Widget-Info.plist */,
+				E547F4B9C9ED79FE7A55A583 /* Config/App.entitlements */,
+				FD0A928482901FDE699E39FA /* Config/Widget.entitlements */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD5BC4CDFDF0918087C782 /* ActivityWatch Widget.app */,
+				F231F6FE549E641636571AA6 /* ActivityWatchWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0352A6A2FCE048894C87B37E /* ActivityWatchWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046283114E769766CD918828 /* Build configuration list for PBXNativeTarget "ActivityWatchWidget" */;
+			buildPhases = (
+				04D687DD49DEA6F33518F80D /* Sources */,
+				1ED70CF945AD56722802E337 /* Frameworks */,
+				AC1DA45BD55B6609C6C2EB58 /* Resources */,
+				CFFF27C96089B93150F3553B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = ActivityWatchWidget;
+			productName = "ActivityWatch Widget";
+			productReference = 8BCD5BC4CDFDF0918087C782 /* ActivityWatch Widget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		568889CE84FC139A640015BA /* ActivityWatchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6FC2A2C11DAEE6BBEC39D22 /* Build configuration list for PBXNativeTarget "ActivityWatchWidgetExtension" */;
+			buildPhases = (
+				C9BCD6DB2CE4A416788FEE31 /* Sources */,
+				574FEB85B77A2AAD2E5A4E53 /* Frameworks */,
+				8340065BD812AEE7B0793616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActivityWatchWidgetExtension;
+			productName = ActivityWatchWidgetExtension;
+			productReference = F231F6FE549E641636571AA6 /* ActivityWatchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0352A6A2FCE048894C87B37E = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					568889CE84FC139A640015BA = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 128D1971520EF7E0088A5374 /* Build configuration list for PBXProject "ActivityWatchWidget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC76E9F0C0006E8F919E0C51;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0352A6A2FCE048894C87B37E /* ActivityWatchWidget */,
+				568889CE84FC139A640015BA /* ActivityWatchWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8340065BD812AEE7B0793616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1DA45BD55B6609C6C2EB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D687DD49DEA6F33518F80D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0281A7F305DB8C09556588A /* App/ChromeDashboardSection.swift in Sources */,
+				173A8A2898BC7C97E414178B /* Shared/BrowserActivity.swift in Sources */,
+				3E5608C6E91562E5589918C8 /* App/ActivityWatchApp.swift in Sources */,
+				3B4D062E9DF6D20B7437AF82 /* App/DashboardView.swift in Sources */,
+				590408B7FADAC72C8E0613DA /* Shared/Models.swift in Sources */,
+				5C26D0F98F939775EE17540F /* Shared/ActivityClient.swift in Sources */,
+				AECD298FFBF9E825C4AB7EC3 /* Shared/SharedStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BCD6DB2CE4A416788FEE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8810FE998614CB71141347B /* Widget/ChromeWidget.swift in Sources */,
+				10AE3196556C46C8DA6D259E /* Shared/BrowserActivity.swift in Sources */,
+				03F0B3F2C1BA6CE2EA3D76E1 /* Widget/ActivityWidget.swift in Sources */,
+				EB3E7A6F330162EDF217A79F /* Shared/Models.swift in Sources */,
+				C26F882B2F43581548FF15E8 /* Shared/ActivityClient.swift in Sources */,
+				4D38674F219455B12DC5B560 /* Shared/SharedStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE58E2B17C19600779694943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568889CE84FC139A640015BA /* ActivityWatchWidgetExtension */;
+			targetProxy = D799BAE6088A90139B415FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		066776A1C212750E8BE506A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
+				DEVELOPMENT_TEAM = Z33HH6U772;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "ActivityWatch Widget";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		1D8C0C6B1D22EA8C7669B263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DCDCCF177A16A1A9120BDD /* Config/Project.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		233E90DF3152510FECD70489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				DEVELOPMENT_TEAM = Z33HH6U772;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).Widget";
+				PRODUCT_NAME = ActivityWatchWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		3A77CD648711364E9A877D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
+				DEVELOPMENT_TEAM = Z33HH6U772;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "ActivityWatch Widget";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		670DBE21564EC4BAE6E163DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				DEVELOPMENT_TEAM = Z33HH6U772;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).Widget";
+				PRODUCT_NAME = ActivityWatchWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		BFD315016DE16320F7E2120C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DCDCCF177A16A1A9120BDD /* Config/Project.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046283114E769766CD918828 /* Build configuration list for PBXNativeTarget "ActivityWatchWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A77CD648711364E9A877D62 /* Debug */,
+				066776A1C212750E8BE506A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128D1971520EF7E0088A5374 /* Build configuration list for PBXProject "ActivityWatchWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD315016DE16320F7E2120C /* Debug */,
+				1D8C0C6B1D22EA8C7669B263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6FC2A2C11DAEE6BBEC39D22 /* Build configuration list for PBXNativeTarget "ActivityWatchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233E90DF3152510FECD70489 /* Debug */,
+				670DBE21564EC4BAE6E163DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
